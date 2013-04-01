@@ -1,0 +1,1 @@
+this is the directory where images will go, to be used for map.
