@@ -18,8 +18,11 @@ I set my fuel usage at 28MPG which is the average MPG my Ford Taurus car receive
 
 How to Use
 ---
- * Select one of the trips I recorded at the bottom of the page under “Select Existing Trip”
- * Automatically statistics and several heat maps associated with the selected trip will load.
- * Select which heatmap you would like to view using the drop down menu under the heading “Select a Heatmap”
- * New trips can be loaded using an Admin panel, which is restricted for fear of exploitation
+ * [Currently I need to upload the database creation scripts] 
+ * Use uploadfiles.php to upload your Google Latitude location KML file. 
+ * Verify the file is uploaded by going to ./geoloc/index.php
+   When the file is uploaded, it was also inserted into the database as a "trip", and all the location points are apart of the trip
+   Using crude euclinian distance, the trip distance is calcuclated between the geolocations
+ * Once file is uploaded into /tmp/ directory, run heatmapGenerate.py to create a heatmap in the /mapfiles/ directory
+ * View the result with index.php
 
