@@ -3,6 +3,9 @@ pteam
 
 Personal Travel Emission Analysis Map -- This web application serves to calculate CO2 emissions generated during a period of time
 
+Working example: http://www.beaubouchard.com/pteam/
+
+
 Project In-depth Description
 ---
 In preparation for working on this project I tracked my location information using the Google Latitude application over the course of several months. I also collected a separate dataset which consists of the EXIF geotag data from pictures I took during this time.
