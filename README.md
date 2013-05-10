@@ -1,7 +1,7 @@
 pteam
 =====
 
-Personal Travel Emission Analysis Map -- This web application serves to calculate CO2 emissions generated during a period of time
+Personal Travel Emission Analysis Map -- This web application serves to calculate CO2 emissions generated during a period of time and distance
 
 Working example: http://www.beaubouchard.com/pteam/
 
